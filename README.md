@@ -1,4 +1,4 @@
-## Projeto de Landing Page para FinanSense
+## Projeto de Landing Page Responsiva para FinanSense
 
 A FinanSense é uma fintech fictícia autoral, a landing page foi feita durante o segundo semestre da faculdade FIAP.
 
