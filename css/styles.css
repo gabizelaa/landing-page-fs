@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --cor-primaria: #6F4798;
+    --cor-secundaria: #83119B;
+    --cor-terciaria: #564899;
+    --cor-light: #F6F6F6;
+    --text-white: #FFFFFF;
+    --cor-dark: #3d3d3d;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor-light);
+    color: var(--cor-dark);
+    font-size: 18px;
+}
+
+strong {
+    color: var(--cor-primaria);
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); 
+}
+
+.navbar-toggler{
+    background-color: var(--cor-primaria);
+}
+
+.primary-button {
+    background-color: var(--cor-primaria);
+    box-shadow: 1px 1px 4px var(--cor-dark);
+    color: var(--cor-light);
+    width: 9rem;
+    height: 4vh ; 
+}
+
+.secondary-button {
+    background-color: var(--cor-primaria);
+    box-shadow: 1px 1px 4px var(--cor-dark);
+    color: var(--cor-light);
+    border-radius: 60px;
+    width: 12rem;
+    align-items: center;
+}
+
+.secondary-button:hover{
+    background-color: #915fc4;
+    color: var(--cor-light);
+}
+
+.primary-button:nth-child(2) {
+    background-color: var(--cor-terciaria);
+}
+
+.primary-button:hover{
+    background-color: #915fc4;
+    color: var(--cor-light);
+}
+
+.text-secondary{
+    font-size: 0.8em;
+}
+
+.text-secondary::before{
+    background-image: url("./img/Desktop_tablet_cell.png");
+}
+
+.card {
+    background: var(--cor-light);
+    border: 3px solid var(--cor-primaria);
+    border-radius: 40px;
+    color: var(--cor-dark);
+}
+
+.list-group-item {
+    background-color: var(--cor-light);
+}
+
+footer {
+    background-color: var(--cor-primaria);
+    height: 6em;
+}
+
